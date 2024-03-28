@@ -3,6 +3,7 @@
  */
 
 class Laptop {
+    private String brand;
     private int ram;
     private int storageCapacity;
     private String operatingSystem;
@@ -15,7 +16,6 @@ class Laptop {
      * @param opertionSystem Операционная система
      * @param color Цвет
      */
-    private String brand;
     public Laptop(String brand, int ram, int storageCapacity, String operatingSystem, String color) {
         this.brand = brand;
         this.ram = ram;
