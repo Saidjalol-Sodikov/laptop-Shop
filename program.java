@@ -59,10 +59,10 @@ public class program {
 
         // Вывод результатов
         System.out.println("Найденные ноутбуки:");
-        System.out.println("| Марка     | ОЗУ | Объем ЖД | ОС       | Цвет      |");
-        System.out.println("|-----------|-----|----------|----------|-----------|");
+        System.out.println("| Марка     | ОЗУ | Объем ЖД | ОС       | Цвет       |");
+        System.out.println("|-----------|-----|----------|----------|------------|");
         for (Laptop laptop : filteredLaptops) {
-            System.out.printf("| %-10s| %3d | %8d | %-9s| %-10s|%n",
+            System.out.printf("| %-10s| %3d | %8d | %-9s| %-11s|%n",
                     laptop.getBrand(), laptop.getRam(), laptop.getStorageCapacity(),
                     laptop.getOperatingSystem(), laptop.getColor());
         }

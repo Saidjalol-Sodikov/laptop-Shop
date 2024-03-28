@@ -10,10 +10,10 @@ class Laptop {
     private String color;
     
     /**
-     * @param brand Бренд 
-     * @param ram Оперативная память
-     * @param storageCapacity Основная память
-     * @param opertionSystem Операционная система
+     * @param brand Марка 
+     * @param ram ОЗУ
+     * @param storageCapacity Объём ЖД
+     * @param opertionSystem ОС
      * @param color Цвет
      */
     public Laptop(String brand, int ram, int storageCapacity, String operatingSystem, String color) {
